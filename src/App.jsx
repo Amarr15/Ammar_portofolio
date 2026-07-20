@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Loader from './components/Loader';
 import ParticleBackground from './components/ParticleBackground';
 import Navbar from './components/Navbar';
@@ -32,7 +32,7 @@ function App() {
           {/* Global background + Router */}
           <ParticleBackground />
 
-          <BrowserRouter>
+          <HashRouter>
             <Navbar />
 
             <Routes>
@@ -51,7 +51,7 @@ function App() {
             </Routes>
 
             <Footer />
-          </BrowserRouter>
+          </HashRouter>
         </div>
       )}
     </>
