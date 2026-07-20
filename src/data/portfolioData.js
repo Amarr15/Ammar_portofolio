@@ -24,7 +24,7 @@ export const developerInfo = {
   Facebook: "https://www.facebook.com/amar.yasser.98349",
   instagram: "https://www.instagram.com/amarrr_31/",
   resumeUrl: "#",
-  avatarUrl: "/ammmar.jpg",
+  avatarUrl: `${import.meta.env.BASE_URL}ammmar.jpg`,
   about: "With 5+ years of experience building enterprise-grade backend systems, I specialize in creating scalable, secure APIs that power modern applications. My expertise spans ASP.NET Core, database architecture, real-time systems, and microservices. I'm passionate about clean code, performance optimization, and building systems that scale.",
 };
 
